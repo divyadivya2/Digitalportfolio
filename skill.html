@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Skills</title>
+    <style>
+      body,
+      h1,
+      h2,
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 30px 0;
+      }
+
+      .skills {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: rgb(222, 216, 216);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .skill {
+        margin-bottom: 50px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .skill-bar {
+        background-color: #878787;
+        height: 20px;
+        border-radius: 10px;
+      }
+
+      .skill-level {
+        height: 100%;
+        width: 0;
+        text-align: right;
+        line-height: 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        background-color: #a125d2;
+        transition: width 1s ease;
+      }
+
+      .skill-level.html {
+        width: 80%;
+      }
+
+      .skill-level.css {
+        width: 75%;
+      }
+
+      .skill-level.js {
+        width: 70%;
+      }
+      body{
+    height: 1000px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right,rgb(25, 1, 97),rgb(126, 6, 126),rgb(180, 10, 163));
+}
+      .hero{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.hero ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    position: relative;
+    margin-left: 90%;
+}
+
+.hero ul li a{
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold; 
+}
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+        <ul>
+            <li><a href="indexs.html" target="_blank">Home</a></li>
+        </ul>
+    <header>
+      <h1>My Skills</h1>
+    </header>
+    <section class="skills">
+      <div class="skill">
+        <h2>HTML</h2>
+        <div class="skill-bar">
+          <div class="skill-level html">80%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <h2>CSS</h2>
+        <div class="skill-bar">
+          <div class="skill-level css">75%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <h2>JavaScript</h2>
+        <div class="skill-bar">
+          <div class="skill-level js">70%</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
